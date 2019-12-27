@@ -26,4 +26,4 @@ app.use( async function(ctx) {
     ctx.status = 200;
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || '3000');
